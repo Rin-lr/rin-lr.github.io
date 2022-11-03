@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+#app {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 7em;
+}
+.header {
+  display: flex;
+  width: 100%;
+  border-bottom: 0.25em solid black;
+  margin-bottom: 1.25em;
+  justify-content: center;
+  height: 5em;
+}
+.HIT {
+  display: flex;
+  align-items: baseline;
+  margin: 0.45em;
+  width: 100%;
+}
+#center {
+  margin-top: 5.5em;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  flex-direction: column;
+  text-align: -webkit-center;
+}
+#footer {
+  width: 100%;
+  height: 2.5em;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0em;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+#name {
+  margin-right: 2em;
+}
+#logo {
+  display: flex;
+  left: 50%;
+  position: absolute;
+  top: 0;
+}
